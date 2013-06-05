@@ -1,5 +1,5 @@
 <?php
-
+//The first class gets info for BTC to usd
 // 	Bitcoin Helper 0.11
 
 /*
