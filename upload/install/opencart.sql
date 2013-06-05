@@ -399,7 +399,7 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (17, 1, 'Software', '', '', ''),
 (25, 1, 'Components', '', '', ''),
 (24, 1, 'Phones &amp; PDAs', '', '', ''),
-(20, 1, 'Desktops', '&lt;p&gt;\r\n	Example of category description text&lt;/p&gt;\r\n', 'Example of category description', ''),
+(20, 1, 'Desktops', '&lt;p&gt;\r\n  Example of category description text&lt;/p&gt;\r\n', 'Example of category description', ''),
 (35, 1, 'test 1', '', '', ''),
 (36, 1, 'test 2', '', '', ''),
 (37, 1, 'test 5', '', '', ''),
@@ -990,7 +990,7 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.61979997, 1, '2011-07-16 10:30:52'),
+(1, 'Bitcoin', 'BTC', 'ᗸ', '', '8', 0.000001, 1, '2011-07-16 10:30:52'),
 (2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2011-07-16 16:55:46'),
 (3, 'Euro', 'EUR', '', '€', '2', 0.70660001, 1, '2011-07-16 10:30:52');
 
